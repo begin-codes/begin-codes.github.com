@@ -1,7 +1,11 @@
+import { Button } from 'antd'
+
 class Container extends React.Component {
   render() {
     return (
-      <div>Hello World!</div>
+      <div>
+        <Button>Submit</Button>
+      </div>
     )
   }
 }
